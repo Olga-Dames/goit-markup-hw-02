@@ -1,0 +1,92 @@
+:root {
+  --primary-test-color: #212121;
+  --secondary-text-color: #757575;
+  --white-text-color: #FFFFFF;
+  --accent-color: #2196F3;
+  --address-text-color:rgba(255, 255, 255, 0.6);
+  --logo-color: #000000;
+
+  --primary-bg-color: #F5F5F5;
+  --secondary-bg-color: #2F303A;
+  --header-bg-color: #FFFFFF;
+
+  --hover-color: #188CE8;
+}
+body {
+  color: var(--primary-test-color);
+  background-color: var(--primary-bg-color);
+}
+/*header*/
+.header {
+  background-color: var(--header-bg-color);
+}
+.logo {
+  color: var(--accent-color);
+}
+.logo-part {
+  color: var(--logo-color);
+}
+.nav-link {
+  color: var(--primary-test-color);
+}
+.nav-link:hover,
+.nav-link:focus {
+  color: var(--accent-color);
+}
+.contact-link {
+  color: var(--secondary-text-color);
+}
+.contact-link:hover,
+.contact-link:focus {
+  color: var(--accent-color);
+}
+
+/* hero section */
+.hero-section {
+  background-color: var(--secondary-bg-color) ;
+}
+.hero-section h1 {
+  color: var(--white-text-color) ;
+}
+.hero-btn {
+  color: var(--white-text-color) ;
+  background-color: var(--accent-color) ;
+}
+.hero-btn:hover,
+.hero-btn:focus {
+  background-color: var(--hover-color);
+}
+
+/* features */
+.features-item p,
+.team-item p {
+  color: var(--secondary-text-color);
+}
+
+/* portfolio */
+.btn {
+  cursor: pointer;
+}
+.btn:hover,
+.btn:focus {
+  color: var(--white-text-color) ;
+  background-color: var(--accent-color);
+}
+
+/* footer */
+.footer {
+  background-color: var(--secondary-bg-color);
+}
+.footer-part {
+  color: var(--white-text-color) ;
+}
+.address-link {
+  color: var(--address-text-color) ;
+}
+.address-link:hover,
+.address-link:focus {
+  color: var(--white-text-color) ;
+}
+.gallery p {
+  color: var(--secondary-text-color) ;
+}
