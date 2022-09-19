@@ -9,95 +9,124 @@
   </head>
   <body>
     <!--header-->
-    <header>
-      <a href="./index.html">Web<span>Studio</span></a>
-      <nav>
+    <header class="header">
+      <a class="logo" href="./index.html"
+        >Web<span class="logo-part">Studio</span></a
+      >
+      <nav class="nav">
         <ul>
-          <li><a href="./index.html">Студія</a></li>
-          <li><a href="./portfolio.html">Портфоліо</a></li>
-          <li><a href="#">Контакти</a></li>
+          <li><a class="nav-link" href="./index.html">Студія</a></li>
+          <li><a class="nav-link" href="./portfolio.html">Портфоліо</a></li>
+          <li><a class="nav-link" href="#">Контакти</a></li>
         </ul>
       </nav>
-      <ul>
-        <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-        <li><a href="tel:+380961111111">+38 096 111 11 11</a></li>
+      <ul class="contacts">
+        <li class="contact-item">
+          <a class="contact-link" href="mailto:info@devstudio.com"
+            >info@devstudio.com</a
+          >
+        </li>
+        <li class="contact-item">
+          <a class="contact-link" href="tel:+380961111111">+38 096 111 11 11</a>
+        </li>
       </ul>
     </header>
 
     <!-- portfolio -->
     <section>
-      <h1>Портфоліо</h1>
-      <ul>
-        <li class="button-item"><button type="button">Усі</button></li>
-        <li class="button-item"><button type="button">Веб-сайти</button></li>
-        <li class="button-item"><button type="button">Додатки</button></li>
-        <li class="button-item"><button type="button">Дизайн</button></li>
-        2
-        <li class="button-item"><button type="button">Маркетинг</button></li>
+      <h1 class="visually-hidden">Портфоліо</h1>
+      <ul class="button-list">
+        <li class="button-item">
+          <button class="btn" type="button">Усі</button>
+        </li>
+        <li class="button-item">
+          <button class="btn" type="button">Веб-сайти</button>
+        </li>
+        <li class="button-item">
+          <button class="btn" type="button">Додатки</button>
+        </li>
+        <li class="button-item">
+          <button class="btn" type="button">Дизайн</button>
+        </li>
+        <li class="button-item">
+          <button class="btn" type="button">Маркетинг</button>
+        </li>
       </ul>
-      <ul>
+      <ul class="gallery">
         <li>
           <img src="./images/item-1.jpg" alt="Відкритий ноутбук" width="370" />
-          <h2>Технокряк</h2>
+          <h2 class="gallery-title">Технокряк</h2>
           <p>Веб-сайт</p>
         </li>
         <li>
           <img src="./images/item-2.jpg" alt="Гра в баскетбол" width="370" />
-          <h2>Постер New Orlean vs Golden Star</h2>
+          <h2 class="gallery-title">Постер New Orlean vs Golden Star</h2>
           <p>Дизайн</p>
         </li>
         <li>
           <img src="./images/item-3.jpg" alt="Логотип ресторану" width="370" />
-          <h2>Ресторан Seafood</h2>
+          <h2 class="gallery-title">Ресторан Seafood</h2>
           <p>Додаток</p>
         </li>
         <li>
           <img src="./images/item-4.jpg" alt="Навушники" width="370" />
-          <h2>Проєкт Prime</h2>
+          <h2 class="gallery-title">Проєкт Prime</h2>
           <p>Маркетинг</p>
         </li>
         <li>
           <img src="./images/item-5.jpg" alt="Дві коробки" width="370" />
-          <h2>Проєкт Boxes</h2>
+          <h2 class="gallery-title">Проєкт Boxes</h2>
           <p>Додаток</p>
         </li>
         <li>
           <img src="./images/item-6.jpg" alt="Моноблок" width="370" />
-          <h2>Inspiration has no Borders</h2>
+          <h2 class="gallery-title">Inspiration has no Borders</h2>
           <p>Веб-сайт</p>
         </li>
         <li>
           <img src="./images/item-7.jpg" alt="Відкрита книга" width="370" />
-          <h2>Видання Limited Edition</h2>
+          <h2 class="gallery-title">Видання Limited Edition</h2>
           <p>Дизайн</p>
         </li>
         <li>
           <img src="./images/item-8.jpg" alt="Білий лейбл" width="370" />
-          <h2>Проєкт LAB</h2>
+          <h2 class="gallery-title">Проєкт LAB</h2>
           <p>Маркетинг</p>
         </li>
         <li>
           <img src="./images/item-9.jpg" alt="Бізнес веб-сайт" width="370" />
-          <h2>Growing Business</h2>
+          <h2 class="gallery-title">Growing Business</h2>
           <p>Додаток</p>
         </li>
       </ul>
     </section>
+
     <!--footer-->
-    <footer>
-      <a href="./index.html">Web<span>Studio</span></a>
+    <footer class="footer">
+      <a class="logo" href="./index.html"
+        >Web<span class="footer-part">Studio</span></a
+      >
       <address>
         <ul>
-          <li>
+          <li class="address-item">
             <a
+              class="address-link"
               href="https://goo.gl/maps/L7ttjmK7k26Ft5Dp7"
               target="_blank"
               rel="noreferrer noopener nofollow"
               >м. Київ, пр-т Лесі Українки, 26</a
             >
           </li>
-          <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-          <li><a href="tel:+380961111111">+38 096 111 11 11</a></li>
+          <li class="address-item">
+            <a class="address-link" href="mailto:info@devstudio.com"
+              >info@devstudio.com</a
+            >
+          </li>
+          <li class="address-item">
+            <a class="address-link" href="tel:+380961111111"
+              >+38 096 111 11 11</a
+            >
+          </li>
         </ul>
       </address>
     </footer>
