@@ -87,6 +87,7 @@ body {
 
 /* features */
 .features-title {
+  font-size: 14px;
   font-weight: 700;
   line-height: 1.14;
   text-transform: uppercase;
@@ -149,7 +150,7 @@ body {
   color: var(--white-text-color);
 }
 .address-item {
-  font-size: 16px;
+  font-size: 14px;
   line-height: 1.71;
   font-style: normal;
 
@@ -160,6 +161,9 @@ body {
 }
 .address-link:hover,
 .address-link:focus {
+  color: var(--white-text-color);
+}
+.address-link.map {
   color: var(--white-text-color);
 }
 .gallery p {
